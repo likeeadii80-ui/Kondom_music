@@ -688,7 +688,7 @@ HELP_CATEGORY_TEXT = {k: v.translate(_STY) for k, v in HELP_CATEGORY_TEXT.items(
 
 def _welcome_text(user_name: str, user_id: int, bot_name: str, bot_username: str) -> str:
     user_tag = f'<a href="tg://user?id={user_id}">{esc(smallcaps_title(user_name))}</a>'
-    bot_tag = f'<a href="https://t.me/{bot_username}">『𝙈ɪᴛ𝙨ᴜʀɪ × 𝙈ᴜ𝙨ɪᴄ』</a>'
+    bot_tag = f'<a href="https://t.me/{bot_username}"> 𝘼𝙣𝙖𝙣𝙮𝙖 ✘ 𝙈𝙪𝙨𝙞𝙘 </a>'
 
     greeting = blockquote(f"<b>💐 Gʀєєᴛɪηɢs {user_tag} 🥀</b>")
     details = blockquote(
